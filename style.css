@@ -1,0 +1,29 @@
+body {
+  background-color: #121025; /* Dark background */
+  color: #e0e0ff; /* Light text */
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: linear-gradient(to right, #00ccff, #ff00cc); /* Gradient */
+}
+
+.ebook {
+  background-color: #1c1a30; 
+  border: 2px solid #00ccff; /* Neon border */
+  box-shadow: 0 5px 10px rgba(0, 204, 255, 0.4); /* Subtle glow */
+}
+
+.button {
+  background-color: transparent;
+  color: #ff00cc;
+  border: 2px solid #ff00cc;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #ff00cc;
+    color: #121025;
+}
